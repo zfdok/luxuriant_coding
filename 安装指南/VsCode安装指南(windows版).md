@@ -28,6 +28,10 @@ https://code.visualstudio.com/
 
 ![image-20220127143026026](https://img.xbtx666.cn/blogs/image-20220127143026026.png)
 
+![](https://img.xbtx666.cn/blogs/image-20220209124022778.png)
+
+![](https://img.xbtx666.cn/blogs/image-20220209124113127.png)
+
 ### 3. 勾选选项
 
 ![](https://img.xbtx666.cn/blogs/image-20220127143125148.png)
@@ -64,6 +68,8 @@ https://code.visualstudio.com/
 
 ![image-20220127144843067](https://img.xbtx666.cn/blogs/image-20220127144843067.png)
 
+等待安装完成后, 关闭vscode
+
 # 四. 配置学习环境
 
 ### 1. 创建学习文件夹
@@ -98,7 +104,11 @@ https://code.visualstudio.com/
 
 ### 4. 配置python版本
 
-点击左下角`Select a Python interpreter`, 会弹出python版本选择界面, 点击对应的python版本就可以了, 如果有多个版本, 请按需求选择
+点击左下角`Select a Python interpreter` 或 `python 3.xx.xx`, 会弹出python版本选择界面, 
+
+![](https://img.xbtx666.cn/blogs/image-20220209124710059.png)
+
+点击对应的python版本就可以了, 如果有多个版本, 请按需求选择
 
 ![image-20220127151811732](https://img.xbtx666.cn/blogs/image-20220127151811732.png)
 
@@ -125,3 +135,21 @@ print(1+1)
 ![image-20220127152936138](https://img.xbtx666.cn/blogs/image-20220127152936138.png)
 
 如果运行成功, 证明VsCode安装成功
+
+# 六. 安装代码美化工具(可选)
+
+代码美化工具, 可以帮助我们美化代码格式, 我们现在就把它安装好, 方便同学们学习时, 一键美化自己的代码
+
+按下 `{alt}`+`{shift}`+`{F}`, 右下角会弹出安装提示, 我们点击 `是`
+
+![](https://img.xbtx666.cn/blogs/image-20220209135249110.png)
+
+工具会自动安装完成
+
+![image-20220209135417914](https://img.xbtx666.cn/blogs/image-20220209135417914.png)
+
+> 注意: 如果您安装失败, 那是因为网络问题,  请您先完成下一篇[pip换源](https://xbtx666.cn/35), 再回来安装
+
+# 七. 后续步骤
+
+1. 删除vscode安装包
