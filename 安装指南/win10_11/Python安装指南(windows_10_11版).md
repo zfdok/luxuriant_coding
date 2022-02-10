@@ -1,3 +1,11 @@
+> 注意: 本文只适合 windows10 / windows11 , 
+>
+> 如果您是win7系统: 请看这篇 :  
+>
+> 如果您是苹果Mac OS系统: 请查看这篇 : 
+>
+> 如果您是XP系统,  这个系统实在是太旧了, 无法提供良好的编程学习环境了, 建议您先升级到较新的win10系统 
+
 # 一. 下载python
 
 ###  1. 访问python官方网站
@@ -20,7 +28,8 @@ https://www.python.org/
 
 👇👇👇👇👇
 
-
+链接：https://pan.baidu.com/s/1ePTOww-U_7uKRlqWA55CKg?pwd=xbtx 
+提取码：xbtx
 
 # 二. 安装python
 

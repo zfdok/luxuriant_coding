@@ -14,6 +14,9 @@ https://code.visualstudio.com/
 
 👇👇👇👇👇
 
+链接：https://pan.baidu.com/s/1ePTOww-U_7uKRlqWA55CKg?pwd=xbtx 
+提取码：xbtx 
+
 # 二. 安装VsCode
 
 ### 1. 开始安装
