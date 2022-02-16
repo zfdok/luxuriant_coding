@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Python在线编辑器</title>
+    <meta name="keywords" content="免费Python在线编辑器,Python在线IDE,网页Python编辑器,在线运行python,能运行turtle模块的在线python,能运行海龟模块的在线python编辑器">
+    <meta name="description" content="菁英编程爱好者小站为您提供免费Python在线编辑器,让您可以在不安装python的情况下学习python,配套教程,更多工具,请访问菁英编程主站xbtx666.cn">
+    <link rel="stylesheet" href="/revision/js/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="/revision/js/codemirror/addon/fold/foldgutter.css">
+    <link rel="stylesheet" href="/revision/js/codemirror/addon/hint/show-hint.css">
+    <link rel="stylesheet" href="/revision/js/codemirror/addon/lint/lint.css">
+    <link rel="stylesheet" href="/revision/js/codemirror/theme/cobalt.css">
+    <link rel="stylesheet" href="/revision/css/editor.css">
+    <script src="/revision/js/skulpt/jquery.min.js"></script>
+    <script src="/revision/layer/layer.js"></script>
+    <script id="test" src="/revision/js/promise.js"></script>
+    <script type="text/javascript" src="/revision/js/skulpt/dist/skulpt.min.js"></script>
+    <script type="text/javascript" src="/revision/js/skulpt/dist/skulpt-stdlib.js"></script>
+    <script src="/revision/js/codemirror/lib/codemirror.js"></script>
+    <script src="/revision/js/codemirror/addon/comment/comment.js"></script>
+    <script src="/revision/js/codemirror/addon/selection/active-line.js"></script>
+    <script src="/revision/js/codemirror/keymap/sublime.js"></script>
+    <script src="/revision/js/codemirror/addon/hint/show-hint.js"></script>
+    <script src="/revision/js/codemirror/mode/python/python.js"></script>
+    <script src="/revision/js/codemirror/addon/fold/foldcode.js"></script>
+    <script src="/revision/js/codemirror/addon/fold/foldgutter.js"></script>
+    <script src="/revision/js/codemirror/addon/fold/brace-fold.js"></script>
+    <script src="/revision/js/codemirror/addon/fold/indent-fold.js"></script>
+    <script src="/revision/js/codemirror/addon/fold/comment-fold.js"></script>
+    <script src="/revision/js/codemirror/addon/edit/closebrackets.js"></script>
+    <script src="/revision/js/codemirror/addon/edit/matchbrackets.js"></script>
+    <script src="/revision/js/jszip.min.js"></script>
+    <script src="/revision/js/FileSaver.js"></script>
+
+    <script>
+        var home_ucenter_site = "http://ucenter.sciclass.cn";
+    </script>
+    <script src="/revision/js/config.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="https://xbtx666.cn"><img src="https://img.xbtx666.cn/logo/logo_main.png" alt=""></a>
+            <span>Python在线编程IDE</span>
+        </div>
+        <div class="login">
+            <p>
+                <a href="https://xbtx666.cn">返回主页</a>
+            </p>
+        </div>
+    </div>
+
+    <section>
+        <div class="main">
+            <!-- ct-box -->
+            <div class="ct-box" id="h001" style="width:66%;min-width:800px;">
+                <div id="lResize"></div>
+                <div id="rResize"></div>
+                <!-- <div class="ct-head">
+                    <span class="page active">
+                        <span>main.py</span>
+                    </span>
+                </div> -->
+                <div>
+                    <!-- 编辑器 -->
+                    <div class="ct-body">
+                        <div class="main-body" style="padding-right:10px;">
+                            <div class="pyEditor">
+                                <textarea id="yourcode" cols="80" rows="10"></textarea>
+                            </div>
+                            <div class="tip-text" style="display: none;">
+                                <span>保存成功！系统仅保存最后一次提交的代码。</span>
+                                <!-- <span onclick="close()"><img src="/revision/images/X.png" alt=""></span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ct-foot">
+                        <button class="export run start">运行</button>
+                        <button class="submit" id="login-submit" onclick="reset()">清除</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- rt-box -->
+            <div class="rt-box" style="width:34%;min-width:400px;">
+                <div class="result">
+                    <div class="head">
+                        <span>运行结果</span>
+                        <div class="btn-box">
+                            <button class="run start">运行</button>
+                            <button class="clear" onclick="reset()">清除</button>
+                        </div>
+                    </div>
+                    <div>
+                        <pre id="output" style="font-size: 18px;"></pre>
+                    </div>
+                </div>
+                <div class="haigui">
+                    <div class="head">
+                        <span>海龟图</span>
+                        <div>
+                            <button class="fullScreen">全屏</button>
+                            <button class="narrow">收起</button>
+                        </div>
+                    </div>
+                    <div class="hg-body">
+                        <div id="mycanvas"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <input type="hidden" id="history" value="">
+    <input type="hidden" id="isLogin" value="0">
+</body>
+<script src="/revision/js/python/editor.js"></script>
+<script src="/revision/js/python/python.js"></script>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id: "JZqDnZgtWu0J1LMx",ck: "JZqDnZgtWu0J1LMx"})</script>
+
+</html>
